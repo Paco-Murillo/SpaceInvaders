@@ -8,4 +8,11 @@ public class Alien extends Objeto {
         super(textura, x, y);
     }
 
+    public void mover(float dx) {
+        sprite.setX(sprite.getX()+dx);
+    }
+
+    public void bajar(float dy) {
+        sprite.setY(sprite.getY()-dy);
+    }
 }

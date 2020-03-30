@@ -5,7 +5,6 @@ import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
 public abstract class Objeto {
-
     protected Sprite sprite;
 
     public  Objeto(Texture textura, float x, float y){
